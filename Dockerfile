@@ -15,3 +15,6 @@ EXPOSE 3000
 # Set environmental variables
 ENV PORT=3000
 
+# Finally, we tell the container to run the app
+# CMD [ "npm", "start" ]
+CMD [ "npm", "run", "dev" ]
